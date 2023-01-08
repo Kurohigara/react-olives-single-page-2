@@ -1,0 +1,141 @@
+.product {
+  margin-top: 40px;
+}
+
+.product_top {
+  background: url('../../images/product-background.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 489px;;
+}
+
+.product_title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 52px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #7E4E24;
+  text-align: center;
+  padding-top: 130px;
+}
+
+.product_autor {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #7E4E24;
+}
+
+.product_btn {
+  float: right;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.2px;
+  color: #7E4E24;
+  padding-top: 90px;
+  margin-right: 110px;
+}
+
+.product_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 106px;
+}
+
+.product_title-2 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  letter-spacing: 0.1px;
+  color: #7E4E24;
+  margin-bottom: 40px;
+}
+
+.product_subtitle {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.2px;
+  color: #25282B;
+  margin-bottom: 20px;
+}
+
+.product_btn-2 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.2px;
+  color: #7E4E24;
+  cursor: pointer;
+}
+
+.product_img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 1200px) {
+  .product_content {
+    display: block;
+    text-align: center;
+    padding: 0 50px;
+  }
+
+  .product_title-2 {
+    margin-top: 20px;
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+
+  .product_subtitle {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .product_btn-2 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .product_top {
+    height: 250px;;
+  }
+
+  .product_title {
+    font-size: 32px;
+    padding-top: 65px;
+  }
+
+  .product_btn {
+    text-align: center;
+    margin-right: 0px;
+    padding-top: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .product_title {
+    font-size: 26px;
+    padding-top: 35px;
+  }
+
+  .product_btn {
+    text-align: center;
+    padding-top: 15px;
+  }
+}

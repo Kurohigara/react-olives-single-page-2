@@ -1,0 +1,77 @@
+.whoweare {
+  margin-top: 170px;
+  margin-bottom: 140px;
+  padding: 0 106px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.whoweare_title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  letter-spacing: 0.1px;
+  color: #7E4E24;
+  margin-bottom: 40px;
+}
+
+.whoweare_subtitle {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.2px;
+  color: #25282B;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.whoweare_btn {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.2px;
+  color: #7E4E24;
+}
+
+@media screen and (max-width: 1200px) {
+  .whoweare {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding: 0 50px;
+    flex-direction: column;
+    display: block;
+    text-align: center;
+  }
+
+  .whoarewe_img {
+    max-width: 100%;
+  }
+
+  .content {
+    text-align: center;
+  }
+
+  .whoweare_title {
+    margin-top: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    letter-spacing: 0.1px;
+    color: #7E4E24;
+    margin-bottom: 20px;
+  }
+  
+  .whoweare_subtitle {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .whoweare_btn {
+    font-size: 14px;
+  }
+}

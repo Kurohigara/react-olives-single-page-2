@@ -1,0 +1,35 @@
+.whatwedo {
+  margin-top: 120px;
+}
+
+.whatwedo_title {
+  text-align: center;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  letter-spacing: 0.1px;
+  color: #7E4E24;
+  margin-bottom: 55px;
+}
+
+.whatwedo_img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+@media screen and (max-width: 650px) {
+  .whatwedo {
+    margin-top: 60px;
+  }
+
+  .whatwedo_title {
+    font-size: 26px;
+    margin-bottom: 22px;
+  }
+
+}
